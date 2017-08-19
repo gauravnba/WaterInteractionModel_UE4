@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{FC871BD0-4E79-DE9C-6E6C-A6AE7BF019E5}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "WaveworksTester",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor"
+	]
+}
