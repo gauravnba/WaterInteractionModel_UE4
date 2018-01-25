@@ -2,8 +2,8 @@
 
 ![alt tag](Screens/WaterInteractionModelScreen.png)
 
-A physics interaction model of a boat in water using nVidia PhysX, Waveworks and Unreal Engine. Since the UE4 Editor requires Waveworks to be integrated, I used a custom build of Unreal Engine, that can be found at: https://github.com/NvPhysX/UnrealEngine/tree/WaveWorks
-This physics model is based on the Gamsutra article by Jaques Kerner, about a Water interaction model for boats in video games.
+A physics interaction model of a boat in water using nVidia PhysX, Waveworks and Unreal Engine. Since the UE4 Editor requires Waveworks to be integrated, I used a custom build of Unreal Engine, that can be found [here](https://github.com/NvPhysX/UnrealEngine/tree/WaveWorks)
+This physics model is based on the Gamsutra article by Jaques Kerner, about a [Water interaction model for boats in video games](https://www.gamasutra.com/view/news/237528/Water_interaction_model_for_boats_in_video_games.php).
 Ideally, the model should work for a boat of any shape in a body of water with any type of behaviour. However, since the model is still in development, it works for the boat model used.
 
 ## Steps to run simulation:
