@@ -19,11 +19,12 @@ Ideally, the model should work for a boat of any shape in a body of water with a
 
 The model is designed as a component that can be attached to any Actor, such that that Actor is now able to use the Water Interaction physics.
 There are two main C++ classes that include the code required to run this interaction -
- - WaterPhysicsComponent - This includes all the logic required to run the physics simulation.
- - BoatPhysicsUtil - This includes the mathematic formulae used by the simulation.
- For more detailed information on the project, please read the dev diary at https://gnandagames.wordpress.com/blog/
- 
- ### Issues currently working on:
+- <i>/Source/WaveworksTester/CustomComponents/WaterPhysicsComponent.cpp</i> - This includes all the logic required to run the physics simulation.
+- <i>/Source/WaveworksTester/Utility/BoatPhysicsUtil.cpp</i> - This includes the mathematic formulae used by the simulation.
+
+For more detailed information on the project, check out the [dev diary](https://gnandagames.wordpress.com/blog/). Here, I've detailed weekly updates on the project. I now work on this project in my free time; so the frequency of updates have gone down a bit.
+
+### Issues currently working on:
   - Packaging the project to an exe file is not working.
   - Partially submerged triangles are not included in calcualation.
   - Balancing of the numbers to better suit boats of any size.
