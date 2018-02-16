@@ -16,6 +16,8 @@ Ideally, the model should work for a boat of any shape in a body of water with a
 ## About the project
 
 ![alt tag](Screens/418DebugDrawn30.gif)
+<p align = "center">
+<i>In the image above, the yellow, green and blue lines represent the different forces acting on the boat</i></p>
 
 The model is designed as a component that can be attached to any Actor, such that that Actor is now able to use the Water Interaction physics.
 There are two main C++ classes that include the code required to run this interaction -
