@@ -2,8 +2,8 @@
 
 ![alt tag](Screens/WaterInteractionModelScreen.png)
 
-A physics interaction model of a boat in water using nVidia PhysX, Waveworks and Unreal Engine. Since the UE4 Editor requires Waveworks to be integrated, I used a custom build of Unreal Engine, that can be found at: https://github.com/NvPhysX/UnrealEngine/tree/WaveWorks
-This physics model is based on the Gamsutra article by Jaques Kerner, about a Water interaction model for boats in video games.
+A physics interaction model of a boat in water using nVidia PhysX, Waveworks and Unreal Engine. Since the UE4 Editor requires Waveworks to be integrated, I used a [custom build of Unreal Engine](https://github.com/NvPhysX/UnrealEngine/tree/WaveWorks).
+This physics model is based on the Gamsutra article by Jaques Kerner, about a [Water interaction model for boats in video games](https://www.gamasutra.com/view/news/237528/Water_interaction_model_for_boats_in_video_games.php).
 Ideally, the model should work for a boat of any shape in a body of water with any type of behaviour. However, since the model is still in development, it works for the boat model used.
 
 ## Steps to run simulation:
@@ -19,11 +19,12 @@ Ideally, the model should work for a boat of any shape in a body of water with a
 
 The model is designed as a component that can be attached to any Actor, such that that Actor is now able to use the Water Interaction physics.
 There are two main C++ classes that include the code required to run this interaction -
- - WaterPhysicsComponent - This includes all the logic required to run the physics simulation.
- - BoatPhysicsUtil - This includes the mathematic formulae used by the simulation.
- For more detailed information on the project, please read the dev diary at https://gnandagames.wordpress.com/blog/
- 
- ### Issues currently working on:
+- <i>/Source/WaveworksTester/CustomComponents/WaterPhysicsComponent.cpp</i> - This includes all the logic required to run the physics simulation.
+- <i>/Source/WaveworksTester/Utility/BoatPhysicsUtil.cpp</i> - This includes the mathematic formulae used by the simulation.
+
+For more detailed information on the project, check out the [dev diary](https://gnandagames.wordpress.com/blog/). Here, I've detailed weekly updates on the project. I now work on this project in my free time; so the frequency of updates have gone down a bit.
+
+### Issues currently working on:
   - Packaging the project to an exe file is not working.
   - Partially submerged triangles are not included in calcualation.
   - Balancing of the numbers to better suit boats of any size.
